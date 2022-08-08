@@ -18,13 +18,13 @@ export const data = {
 export function App() {
     return (
         <>
-            <h1 class="pieTitle">Pie Chart</h1>
-            <div class ="pieChart">
+            <h1 className="pieTitle">Pie Chart</h1>
+            <div className ="pieChart">
                 <Pie data={data}
                 options={{
                   maintainAspectRatio: false
                 }}
-                />;
+                />
             </div>
         </>
     );
